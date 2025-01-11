@@ -42,9 +42,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "6e000bde-8686-4954-9c0a-94c32b1299e9"
+        "projectId": "#"
       }
     },
-    "owner": "felipesanchez-dev"
+    "owner": "#"
   }
 }
