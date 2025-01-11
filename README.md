@@ -1,50 +1,108 @@
-# Welcome to your Expo app 👋
+# 🌦️ Proyecto: Pronóstico del Clima 1/15
+Este proyecto es una aplicación de pronóstico del clima desarrollada con **React Native** y **Expo**. Permite a los usuarios buscar ubicaciones y obtener información detallada sobre el clima actual y el pronóstico para los próximos días.
+## 📱 Características
+**Búsqueda de ubicaciones**: Ingresa el nombre de una ciudad para obtener resultados relacionados.
+- **Información del clima**: Muestra datos del clima actual, como:
+  - 🌡️ Temperatura
+  - 🌤️ Condición climática
+  - 🌬️ Velocidad del viento
+  - 💧 Humedad
+  - 🌅 Hora del atardecer
+- **Pronóstico diario**: Consulta el pronóstico para los próximos días.
+- **Interfaz intuitiva**: Diseño fácil de usar y estéticamente atractivo, creado con **Tailwind CSS**.
+## 📱 Plataformas Compatibles
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+- **Android:** Accede a la aplicación desde cualquier dispositivo Android.  
+  [Apk Demo [.apk]]()
 
-## Get started
+- **iOS:** La aplicación es compatible con dispositivos Apple (iPhone, iPad).
+## 📂 Estructura del Proyecto
+```JavaScript
+root/ 
+├── api/ // Manejo de llamadas a la API 
+├── app/ // Componentes principales 
+├── assets/ // Recursos estáticos (imágenes, fuentes, etc.) 
+├── constants/ // Configuración de constantes (colores, claves API) 
+├── scripts/ // Scripts útiles (reset del proyecto) 
+├── global.css // Estilos base con Tailwind CSS 
+├── app.json // Configuración de Expo 
+ ```
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## ⚙️ Tecnologías Utilizadas
+- **React Native** (v0.76): Desarrollo móvil multiplataforma.
+- **Expo**: Framework para construir aplicaciones con facilidad.
+- **Axios**: Manejo de peticiones HTTP a la API de clima.
+- **Tailwind CSS**: Estilización rápida y eficiente.
+- **React Navigation**: Navegación fluida entre pantallas.
+- **Lodash**: Funciones de utilidad, como `debounce`.
+## 🌐 API Usada
+Este proyecto utiliza la **WeatherAPI** para obtener información del clima. [Visita WeatherAPI aquí](https://www.weatherapi.com/) para más información.
+## 🛠️ Instalación y Ejecución
+Sigue estos pasos para clonar y ejecutar el proyecto localmente:
+### ⚙️ Configuracion Adicional
+Agrega tu API KEY
+```JavaScript
+root/ 
+├── constants/index.tsx
+//constants\index.tsx
+export const apiKey = 'API KEY';
+ ```
+1. **Clona este repositorio:**
 
 ```bash
-npm run reset-project
+git clone https://github.com/felipesanchez-dev/
 ```
+2.  **Instala las dependencias:**
+```bash
+  npm install
+```
+3.  **Inicia el servidor de desarrollo:**
+```bash
+  npm start
+```
+### Salida en consola
+```bash
+Metro waiting on exp://192.168.1.2:####
+› Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+› Web is waiting on http://localhost:####
 
-## Learn more
+› Using Expo Go
+› Press s │ switch to development build
 
-To learn more about developing your project with Expo, look at the following resources:
+› Press a │ open Android
+› Press w │ open web
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+› Press j │ open debugger
+› Press r │ reload app
+› Press m │ toggle menu
+› shift+m │ more tools
+› Press o │ open project code in your editor
 
-## Join the community
+› Press ? │ show all commands
+```
+<br>
 
-Join our community of developers creating universal apps.
+## ✨ Capturas de Pantalla
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+| ![Captura 1](./assets/Capturas/app1.jpg) | ![Captura 2](./assets/Capturas/app2.jpg) | ![Captura 3](./assets/Capturas/app3.jpg) |
+|------------------------------------------|------------------------------------------|------------------------------------------|
+
+## 📌 Próximos Pasos
+Mejorar la accesibilidad de la aplicación.
+Implementar más detalles sobre el pronóstico extendido.
+Optimizar el manejo de errores en las llamadas a la API.
+
+# 📄 Licencia
+Este proyecto está bajo la Licencia MIT. Siéntete libre de usarlo y modificarlo. 😊
+
+## **💬 Conéctate conmigo**  
+
+Si tienes preguntas, ideas o simplemente quieres compartir tu experiencia desarrollando proyectos similares, ¡no dudes en contactarme! 😊  
+
+**Correo:** [jfelipe9.121@gmail.com](mailto:jfelipe9.121@gmail.com)  
+**LinkedIn:** [felipereyessa](https://www.linkedin.com/in/felipereyessa)  
+**Sitio Web:** [Mi portafolio](https://pipedev.vercel.app/)  
+
+--- 
+**⚠️ Nota importante:** Este es un proyecto es parte del reto **Reto: 15 Proyectos con APIs 🚀:** [[Link del repositorio]](https://github.com/felipesanchez-dev/RN-15-Projects-APIs-Challenge), por lo que **no se aceptarán contribuciones externas** (pull requests o commits).  
