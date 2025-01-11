@@ -85,7 +85,7 @@ Metro waiting on exp://192.168.1.2:####
 
 ## ✨ Capturas de Pantalla
 
-| ![Captura 1](./assets/Capturas/app1.jpg) | ![Captura 2](./assets/Capturas/app2.jpg) | ![Captura 3](./assets/Capturas/app3.jpg) |
+| ![Captura 1](https://github.com/felipesanchez-dev/Pronostico-del-Clima/blob/main/assets/Capturas/app1.jpg) | ![Captura 2](https://github.com/felipesanchez-dev/Pronostico-del-Clima/blob/main/assets/Capturas/app2.jpg) | ![Captura 3](https://github.com/felipesanchez-dev/Pronostico-del-Clima/blob/main/assets/Capturas/app3.jpg) |
 |------------------------------------------|------------------------------------------|------------------------------------------|
 
 ## 📌 Próximos Pasos
