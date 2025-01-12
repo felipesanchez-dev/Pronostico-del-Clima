@@ -60,7 +60,7 @@ git clone https://github.com/felipesanchez-dev/
 ```bash
   npm start
 ```
-### Salida en consola
+### Salida en consola 📤
 ```bash
 Metro waiting on exp://192.168.1.2:####
 › Scan the QR code above with Expo Go (Android) or the Camera app (iOS)
