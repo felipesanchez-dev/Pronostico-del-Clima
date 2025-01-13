@@ -2,7 +2,7 @@
 Este proyecto es una aplicación de pronóstico del clima desarrollada con **React Native** y **Expo**. Permite a los usuarios buscar ubicaciones y obtener información detallada sobre el clima actual y el pronóstico para los próximos días.
 ## 📱 Características
 **Búsqueda de ubicaciones**: Ingresa el nombre de una ciudad para obtener resultados relacionados.
-- **Información del clima**: Muestra datos del clima actual, como:
+- **Información del clima**: Muestra datos del clima actual, como:  
   - 🌡️ Temperatura
   - 🌤️ Condición climática
   - 🌬️ Velocidad del viento
