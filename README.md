@@ -13,7 +13,7 @@ Este proyecto es una aplicación de pronóstico del clima desarrollada con **Rea
 ## 📱 Plataformas Compatibles
 
 - **Android:** Accede a la aplicación desde cualquier dispositivo Android.  
-  [Apk Demo [.apk]](https://expo.dev/artifacts/eas/4HyspTxXZwrbuyKpq5TH5b.apk)
+  [Apk Demo [.apk]](https://github.com/felipesanchez-dev/Pronostico-del-Clima/raw/main/.apk%20demo/ClimaApp.apk)
 
 - **iOS:** La aplicación es compatible con dispositivos Apple (iPhone, iPad).
 ## 📂 Estructura del Proyecto
