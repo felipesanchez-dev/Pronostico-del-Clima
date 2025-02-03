@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.climaapp"
     },
     "web": {
       "bundler": "metro",
@@ -42,9 +43,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "#"
+        "projectId": "6e000bde-8686-4954-9c0a-94c32b1299e9"
       }
     },
-    "owner": "#"
+    "owner": "felipesanchez-dev"
   }
 }
