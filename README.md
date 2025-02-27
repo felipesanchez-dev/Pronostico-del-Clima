@@ -1,4 +1,4 @@
-# 🌦️ Proyecto: Pronóstico del Clima 1/15
+# 🌦️ Proyecto: Pronóstico del Clima 1
 Este proyecto es una aplicación de pronóstico del clima desarrollada con **React Native** y **Expo**. Permite a los usuarios buscar ubicaciones y obtener información detallada sobre el clima actual y el pronóstico para los próximos días.
 ## 📱 Características
 **Búsqueda de ubicaciones**: Ingresa el nombre de una ciudad para obtener resultados relacionados.
@@ -105,4 +105,4 @@ Si tienes preguntas, ideas o simplemente quieres compartir tu experiencia desarr
 **Sitio Web:** [Mi portafolio](https://pipedev.vercel.app/)  
 
 --- 
-**⚠️ Nota importante:** Este es un proyecto es parte del reto **Reto: 15 Proyectos con APIs 🚀:** [[Link del repositorio]](https://github.com/felipesanchez-dev/RN-15-Projects-APIs-Challenge), por lo que **no se aceptarán contribuciones externas** (pull requests o commits).  
+**⚠️ Nota importante:** Este es un proyecto es parte del reto **Reto: Proyectos con APIs 🚀:** [[Link del repositorio]](https://github.com/felipesanchez-dev/RN-15-Projects-APIs-Challenge), por lo que **no se aceptarán contribuciones externas** (pull requests o commits).  
